@@ -19,7 +19,7 @@
 
 4. [Combining CTEs, Subtables, and Transactions](./Lesson-1.md#combining-ctes-subtables-and-transactions)
 
-# Lesson 2: Advanced PostgreSQL Features
+# Lesson 2: Window Functions, Indexes, Joins Beyond Basics, Advanced Data Types, Performance Tuning.
 
 ### Table of Contents
 1. [Window Functions](./Lesson-2.md#window-functions)
