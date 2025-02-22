@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+>  If you are a begginer. Start out with these file and see if it makes sense --> [Beginner.md](./Beginner.md). 
+
+
 # Lesson 1: Common Table Expressions, Subtables, Transactions.
 
 ### Table of Contents
