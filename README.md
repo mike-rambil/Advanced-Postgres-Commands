@@ -1,5 +1,5 @@
 > [!IMPORTANT]
->  If you are a begginer. Start out with these file and see if it makes sense --> [Beginner.md](./Beginner.md). 
+>  If you are a begginer. Start out with these file and see if it makes sense --> [Beginner-1.md](./Beginner-1.md). 
 
 
 # Lesson 1: Common Table Expressions, Subtables, Transactions.
