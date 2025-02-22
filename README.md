@@ -22,23 +22,28 @@
 # Lesson 2: Window Functions, Indexes, Joins Beyond Basics, Advanced Data Types, Performance Tuning.
 
 ### Table of Contents
-1. [Window Functions](./Lesson-2.md#window-functions)
+1. [Beginner Level Joins](./Lesson-2.md#beginner-level-joins)
+   - [Inner Join](./Lesson-2.md#inner-join)
+   - [Left Outer Join](./Lesson-2.md#left-outer-join)
+   - [Right Outer Join](./Lesson-2.md#right-outer-join)
+
+2. [Window Functions](./Lesson-2.md#window-functions)
    - [Syntax](./Lesson-2.md#syntax)
    - [Examples](./Lesson-2.md#examples)
 
-2. [Indexes](./Lesson-2.md#indexes)
+3. [Indexes](./Lesson-2.md#indexes)
    - [Types of Indexes](./Lesson-2.md#types-of-indexes)
    - [Creating Indexes](./Lesson-2.md#creating-indexes)
 
-3. [Joins Beyond Basics](./Lesson-2.md#joins-beyond-basics)
+4. [Joins Beyond Basics](./Lesson-2.md#joins-beyond-basics)
    - [Self Joins](./Lesson-2.md#self-joins)
    - [Full Outer Joins](./Lesson-2.md#full-outer-joins)
    - [Cross Joins](./Lesson-2.md#cross-joins)
 
-4. [Advanced Data Types](./Lesson-2.md#advanced-data-types)
+5. [Advanced Data Types](./Lesson-2.md#advanced-data-types)
    - [JSON/JSONB](./Lesson-2.md#json-jsonb)
    - [Array](./Lesson-2.md#array)
 
-5. [Performance Tuning](./Lesson-2.md#performance-tuning)
+6. [Performance Tuning](./Lesson-2.md#performance-tuning)
    - [EXPLAIN and EXPLAIN ANALYZE](./Lesson-2.md#explain-and-explain-analyze)
    - [Vacuum and Analyze](./Lesson-2.md#vacuum-and-analyze)
