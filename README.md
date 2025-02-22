@@ -16,3 +16,27 @@
    - [Savepoints](./Lesson-1.md#savepoints)  
 
 4. [Combining CTEs, Subtables, and Transactions](./Lesson-1.md#combining-ctes-subtables-and-transactions)
+
+# Lesson 2: Advanced PostgreSQL Features
+
+### Table of Contents
+1. [Window Functions](./Lesson-2.md#window-functions)
+   - [Syntax](./Lesson-2.md#syntax)
+   - [Examples](./Lesson-2.md#examples)
+
+2. [Indexes](./Lesson-2.md#indexes)
+   - [Types of Indexes](./Lesson-2.md#types-of-indexes)
+   - [Creating Indexes](./Lesson-2.md#creating-indexes)
+
+3. [Joins Beyond Basics](./Lesson-2.md#joins-beyond-basics)
+   - [Self Joins](./Lesson-2.md#self-joins)
+   - [Full Outer Joins](./Lesson-2.md#full-outer-joins)
+   - [Cross Joins](./Lesson-2.md#cross-joins)
+
+4. [Advanced Data Types](./Lesson-2.md#advanced-data-types)
+   - [JSON/JSONB](./Lesson-2.md#json-jsonb)
+   - [Array](./Lesson-2.md#array)
+
+5. [Performance Tuning](./Lesson-2.md#performance-tuning)
+   - [EXPLAIN and EXPLAIN ANALYZE](./Lesson-2.md#explain-and-explain-analyze)
+   - [Vacuum and Analyze](./Lesson-2.md#vacuum-and-analyze)
