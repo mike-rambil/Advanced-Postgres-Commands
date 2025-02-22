@@ -1,26 +1,59 @@
-# Lesson 2: Advanced PostgreSQL Features
+# Lesson 2: Advanced and Beginner PostgreSQL Features
 
 ### Table of Contents
-1. [Window Functions](#window-functions)
+1. [Beginner Level Joins](#beginner-level-joins)
+   - [Inner Join](#inner-join)
+   - [Left Outer Join](#left-outer-join)
+   - [Right Outer Join](#right-outer-join)
+
+2. [Window Functions](#window-functions)
    - [Syntax](#syntax)
    - [Examples](#examples)
 
-2. [Indexes](#indexes)
+3. [Indexes](#indexes)
    - [Types of Indexes](#types-of-indexes)
    - [Creating Indexes](#creating-indexes)
 
-3. [Joins Beyond Basics](#joins-beyond-basics)
+4. [Joins Beyond Basics](#joins-beyond-basics)
    - [Self Joins](#self-joins)
    - [Full Outer Joins](#full-outer-joins)
    - [Cross Joins](#cross-joins)
 
-4. [Advanced Data Types](#advanced-data-types)
+5. [Advanced Data Types](#advanced-data-types)
    - [JSON/JSONB](#json-jsonb)
    - [Array](#array)
 
-5. [Performance Tuning](#performance-tuning)
+6. [Performance Tuning](#performance-tuning)
    - [EXPLAIN and EXPLAIN ANALYZE](#explain-and-explain-analyze)
    - [Vacuum and Analyze](#vacuum-and-analyze)
+
+---
+
+## Beginner Level Joins
+
+### Inner Join
+An Inner Join returns only the rows where there is a match in both tables.
+```sql
+SELECT employees.name, departments.name
+FROM employees
+INNER JOIN departments ON employees.department_id = departments.id;
+```
+
+### Left Outer Join
+A Left Outer Join returns all rows from the left table and matching rows from the right table. Rows without a match in the right table return NULL.
+```sql
+SELECT employees.name, departments.name
+FROM employees
+LEFT JOIN departments ON employees.department_id = departments.id;
+```
+
+### Right Outer Join
+A Right Outer Join returns all rows from the right table and matching rows from the left table. Rows without a match in the left table return NULL.
+```sql
+SELECT employees.name, departments.name
+FROM employees
+RIGHT JOIN departments ON employees.department_id = departments.id;
+```
 
 ---
 
@@ -29,7 +62,7 @@ Window functions perform calculations across a set of table rows related to the 
 
 ### Syntax
 ```sql
-SELECT column_name,
+SELECT column_name, 
        window_function() OVER (PARTITION BY column_name ORDER BY column_name) AS alias
 FROM table_name;
 ```
