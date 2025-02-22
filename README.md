@@ -1,4 +1,4 @@
-> [!WARNING]
+> [!important]
 >  If you are a beginner. Start out with these file and see if it makes sense --> [Beginner-1.md](./Beginner-1.md). 
 
 
