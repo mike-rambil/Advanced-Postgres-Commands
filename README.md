@@ -51,3 +51,15 @@
 6. [Performance Tuning](./Lesson-2.md#performance-tuning)
    - [EXPLAIN and EXPLAIN ANALYZE](./Lesson-2.md#explain-and-explain-analyze)
    - [Vacuum and Analyze](./Lesson-2.md#vacuum-and-analyze)
+
+# Backups: Dump, Physical, WAL/PITR, Tooling, Pitfalls
+
+### Table of Contents
+1. [Key Metrics: RPO and RTO](./Backup/readme.md#key-metrics-rpo-and-rto)
+2. [Classic Backup Types](./Backup/readme.md#classic-backup-types)
+3. [Deduplicating Snapshot Tools](./Backup/readme.md#deduplicating-snapshot-tools)
+4. [WAL (Write-Ahead Log)](./Backup/readme.md#wal-write-ahead-log)
+5. [Backup Methods](./Backup/readme.md#backup-methods)
+6. [Industry Standard](./Backup/readme.md#industry-standard)
+7. [Common Pitfalls](./Backup/readme.md#common-pitfalls)
+8. [Choosing a Strategy by Scale](./Backup/readme.md#choosing-a-strategy-by-scale)
